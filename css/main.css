@@ -1,4 +1,4 @@
-/*! HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */
+@import url("fonts.css");
 
 html {
     color: #222;
@@ -56,10 +56,41 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+body {
+    font-family:"Oswald Regular", "Myriad Pro", Arial, sans-serif;
+}
+
+.first-top-line{
+    width: 100%;
+    height: 27px;
+    background-color: #39c2d7;
+    padding-top: 9px;
+    
+}
+
+.first-top-line__logo {
+    float: left;
+    color:#fff;
+    text-transform: uppercase;
+}
 
 
+.first-top-line__nav {
+    color:#fff;
+}
 
 
+.first-top-line__nav  li{
+    display: inline-block;
+}
+
+.first-top-line__nav  ul{
+    margin:0;
+}
+
+.section {
+    
+}
 
 
 
